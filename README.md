@@ -1,6 +1,9 @@
 # zachtarr-recipes
-My first attempt at creating some AutoPkg recipes.
 
-The Plain Clip recipe was created using [Recipe Robot](http://https://github.com/homebysix/recipe-robot)
+**This repository will soon be [archived](https://github.com/autopkg/zachtarr-recipes/issues/2) and its former contents will be removed.**
 
-The FontAgent Pro 6 recipe also installs the companion application Smasher. Uninstalling the package with Munki only removes FontAgent Pro, so I added a post-uninstall script that triggers the Smasher uninstaller.
+The [commit history](https://github.com/autopkg/zachtarr-recipes/commits/master), [issues](https://github.com/autopkg/zachtarr-recipes/issues?q=is%3Aissue), and [pull requests](https://github.com/autopkg/zachtarr-recipes/pulls?q=is%3Apr) are still available for reference, but no future changes are planned.
+
+To remove this repository from your local AutoPkg setup, run:
+
+    autopkg repo-delete zachtarr-recipes
